@@ -7,5 +7,5 @@ web application.
 # Resources
 
 * [Express](http://expressjs.com/)
-* [Pug](https://pugjs.org/api/getting-started.html)
+* [Pug/Jade](https://pugjs.org/api/getting-started.html)
 * [Stylus](http://stylus-lang.com/)
