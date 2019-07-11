@@ -11,11 +11,8 @@ module.exports = function (app) {
 
   /* GET home page. */
   router.get('/', function(req, res, next) {
-    var title = 'Home';
-
-    setActiveNavTo(title);
     res.render('index', {
-      title: title,
+      title: 'Web Store',
     });
   });
 
