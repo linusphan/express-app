@@ -7,6 +7,8 @@ html
     header
       nav
         ul
-          li
-            a.active(href='/') Home
+          each link in links
+            li
+              a(href="#{link.href}" class="#{link.active ? 'active' : ''}")= link.title
+
     block content
