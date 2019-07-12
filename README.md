@@ -3,8 +3,8 @@
 # About
 
 This project uses the popular Node development framework for back-end JavaScript
-development called Express and the preprocessors Pug/Jade and Stylus to build a
-web application.
+development called Express and the preprocessors in Pug/Jade and Stylus to build
+a web application.
 
 # Resources
 
