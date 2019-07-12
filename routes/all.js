@@ -6,7 +6,6 @@ var path = require('path');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   var products = fs.readFileSync(path.resolve(path.dirname(__dirname), 'public/products.json'), 'utf8');
-  console.log(products);
 
   res.render('index', {
     title: 'Web Store',
